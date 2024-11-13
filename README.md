@@ -16,7 +16,7 @@ logo após adicionei um carrosel de videos para chamar atenção do produto anun
 ![image](https://github.com/user-attachments/assets/97d8b730-ec93-444a-ab0e-10efcb8ff59e)
 
 
-após o carrosel eu coloquei cards e foi um bom desafio para centralizar e colocar um em baixo da outro do mobile, mas rapido resolvi com ROW e GRID.
+após o carrosel eu coloquei cards e foi um bom desafio para centralizar e colocar um em baixo da outro no mobile, mas rapido resolvi com ROW e GRID.
 
 ![image](https://github.com/user-attachments/assets/c3196ab1-7b13-4b0d-9543-c0a4c8754631)
 
