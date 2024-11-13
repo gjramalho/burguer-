@@ -5,3 +5,5 @@ Landing page feita em (HTML, CSS, BOOTSTRAP) focada em mostrar minhas habilidade
 
 
 ![Captura de tela 2024-11-13 082635](https://github.com/user-attachments/assets/5d9330e2-d26b-4ddb-a067-712b97a89f29)
+
+![Captura de tela 2024-11-13 082635](https://github.com/user-attachments/assets/c801e239-155a-4646-ba9b-c2003ac012ca)
