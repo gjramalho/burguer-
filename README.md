@@ -1,5 +1,5 @@
 # burguer +
-Landing page feita em (HTML, CSS, BOOTSTRAP) focada em mostrar minhas habilidades com as linguagens citadas.  
+Landing page em desenvolvimento usando (HTML, CSS, BOOTSTRAP) focada em mostrar minhas habilidades com as linguagens citadas.  
 
 *Para começar o projeto fiz a Navbar respo
 
