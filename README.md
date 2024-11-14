@@ -10,7 +10,8 @@ Landing page em desenvolvimento, usando (HTML, CSS, BOOTSTRAP) focada em mostrar
 
 *Logo após adicionei um carrosel de videos, para chamar atenção do produto anunciado e etc.
 
-![image](https://github.com/user-attachments/assets/35a97491-518a-4e5b-835d-2ab603e467c9)
+![image](https://github.com/user-attachments/assets/a9fb9666-baa0-4813-b964-ddb0647daf16)
+
 
 (Versão mobile)
 ![image](https://github.com/user-attachments/assets/97d8b730-ec93-444a-ab0e-10efcb8ff59e)
@@ -18,8 +19,10 @@ Landing page em desenvolvimento, usando (HTML, CSS, BOOTSTRAP) focada em mostrar
 
 *Após o carrosel eu coloquei cards, e foi um bom desafio para centralizar e colocar um em baixo da outro no mobile, mas rapido resolvi com ROW e GRID.
 
-![image](https://github.com/user-attachments/assets/c3196ab1-7b13-4b0d-9543-c0a4c8754631)
+![image](https://github.com/user-attachments/assets/36472f1c-8122-44d9-94c8-470f98b8c897)
+
 
 (Versão mobile)
-![image](https://github.com/user-attachments/assets/920ee60a-1116-4803-9dc6-fe78269e307d)
+![image](https://github.com/user-attachments/assets/2cc94936-fb38-4c6f-a0f3-1c6baaad93d2)
+
 
