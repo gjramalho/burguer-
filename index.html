@@ -7,124 +7,144 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!--Linkar com o bootstrap-->
     <link rel="shortcut icon" href="/imagens/hamburger.png" type="image/x-icon"> <!--Linkar com a img do icon-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> <!-- linkar os icones do bootstrap-->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lora&display=swap" rel="stylesheet"> <!-- linkar as fontes do google-->
     <title>Burguer+</title>
 </head>
 <body>
-        <!--Estrutura da navbar-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary  border-bottom border-body" data-bs-theme="dark">
-            <div class="container-fluid">
-                
-                <a class="navbar-brand d-flex align-items-center" href="#">
-                    <img src="/imagens/hamburger.png" alt="Logo Burguer+" width="30" height="24" class="me-2">
-                    Burguer+
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse  justify-content-center" id="navbarNav" >
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link "aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link"href="#">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link "href="#">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-                    <!--Barra de pesquisa da navbar-->
-                    <form class="d-none d-lg-flex" role="search" >
-                        <input class="  form-control me-1 " type="search" placeholder="Pesquise" aria-label="search">
-                        <button class="btn btn-outline-success" type="submit">
-                            <i class="bi bi-search" aria-label="pesquisar"></i> <!-- adiona a lupa + aria-label para ter uma leitura de tela melhor-->
-                        </button>
-                    </form>
-            </div>
-        </nav>
-
-        <!-- Estrutura do carrosel-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <video class="d-block w-100" autoplay loop muted>
-                <source src="/imagens/124821-732633107_small.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video class="d-block w-100" autoplay loop muted>
-                <source src="/imagens/136434-764388090.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
-            </div>
-            <div class="carousel-item">
-              <video class="d-block w-100" autoplay loop muted>
-                <source src="/imagens/199545-910530517_small.mp4" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-              </video>
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
+     <!--Estrutura da navbar-->
+     <nav class="navbar navbar-expand-lg bg-body-tertiary  border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+          
+          <a class="navbar-brand d-flex align-items-center" href="#">
+              <img src="/imagens/hamburger.png" alt="Logo Burguer+" width="30" height="24" class="me-2">
+              Burguer+
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        
-        <!-- Estrutura dos cards-->
-        <div class="container mt-5">
-          <div class="row justify-content-center"> <!-- Flexbox para centralizar -->
-            <div class="col-12 col-md-4 mb-3"> <!-- Ocupa toda a largura no mobile e 4 colunas em telas médias/maiores -->
-              <div class="card card-spacing p-0" style="width: 18rem;">
-                <img src="/imagens/hamburger-951896_1920.jpg" class="img-fluid card-img " alt="Imagem do card">
-                <div class="card-body d-flex flex-column justify-content-between">
-                  <h5 class="card-title">Burguer tri</h5>
-                  <p class="card-text">Uma unificação do burguer simples com o duplo. Uma verdadeira delícia!</p>
-                  <a href="#" class="btn btn-success ">CONFIRA!</a> <!-- Não utilizar o mx-auto, quero o botão ocupando um espaço maior no card-->
-                </div>
-              </div>
-            </div>
-        
-            <div class="col-12 col-md-4 mb-3">
-              <div class="card card-spacing p-0" style="width: 18rem;">
-                <img src="/imagens/hamburger-951896_1920.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column justify-content-between">
-                  <h5 class="card-title">Burguer tri</h5>
-                  <p class="card-text">Uma unificação do burguer simples com o duplo. Uma verdadeira delícia!</p>
-                  <a href="#" class="btn btn-success">CONFIRA!</a>
-                </div>
-              </div>
-            </div>
+          <div class="collapse navbar-collapse  justify-content-center" id="navbarNav" >
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active"aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link"href="#">Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link "href="#">Contato</a>
+                  </li>
+              </ul>
+          </div>
+              <!--Barra de pesquisa da navbar-->
+              <form class="d-none d-lg-flex" role="search" >
+                  <input class="  form-control me-1 " type="search" placeholder="Pesquise" aria-label="search">
+                  <button class="btn btn-outline-success" type="submit">
+                      <i class="bi bi-search" aria-label="pesquisar"></i> <!-- adiona a lupa + aria-label para ter uma leitura de tela melhor-->
+                  </button>
+              </form>
+      </div>
+    </nav>
 
-            
-        
-            <div class="col-12 col-md-4 mb-3">
-              <div class="card card-spacing p-0" style="width: 18rem;"> <!--Usei o p-0 para remover o padding dos card e dar um estilo mais bonito e slim-->
-                <img src="/imagens/hamburger-951896_1920.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column justify-content-between">
-                  <h5 class="card-title">Burguer tri</h5>
-                  <p class="card-text">Uma unificação do burguer simples com o duplo. Uma verdadeira delícia!</p>
-                  <a href="#" class="btn btn-success ">CONFIRA!</a>
-                </div>
-              </div>
-            </div>
+  <!-- Estrutura do carrosel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video class="d-block w-100" autoplay loop muted>
+          <source src="/imagens/124821-732633107_small.mp4" type="video/mp4">
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
+      <div class="carousel-item">
+        <video class="d-block w-100" autoplay loop muted>
+          <source src="/imagens/136434-764388090.mp4" type="video/mp4">
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
+      <div class="carousel-item">
+        <video class="d-block w-100" autoplay loop muted>
+          <source src="/imagens/199545-910530517_small.mp4" type="video/mp4">
+          Seu navegador não suporta o elemento de vídeo.
+        </video>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  <!-- Estrutura dos cards-->
+  <div class="container mt-5">
+    <div class="row justify-content-center"> <!-- Flexbox para centralizar -->
+      <div class="col-12 col-md-4 mb-3"> <!-- Ocupa toda a largura no mobile e 4 colunas em telas médias/maiores -->
+        <div class="card card-spacing p-0">
+          <img src="/imagens/hamburger-951896_1920.jpg" class="img-fluid card-img " alt="Imagem do card">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">Burguer tri</h5>
+            <p class="card-text">Uma unificação do burguer simples com o duplo. Uma verdadeira delícia!</p>
+            <a href="#" class="btn btn-success w-100">CONFIRA!</a> <!-- Não utilizar o mx-auto, quero o botão ocupando um espaço maior no card/ w-100 para centralizar e ocupar toda largura do card-->
           </div>
         </div>
-        
-        
-        
-        
-        
+      </div>
+  
+      <div class="col-12 col-md-4 mb-3">
+        <div class="card card-spacing p-0">
+          <img src="/imagens/hamburger-951896_1920.jpg" class="img-fluid card-img " alt="Imagem do card">
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">Burguer tri</h5>
+            <p class="card-text">Uma unificação do burguer simples com o duplo. Uma verdadeira delícia!</p>
+            <a href="#" class="btn btn-success w-100">CONFIRA!</a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-12 col-md-4 mb-3">
+        <div class="card card-spacing p-0">
+          <img src="/imagens/hamburger-951896_1920.jpg" class="img-fluid card-img " alt="Imagem do card"> <!-- add o img-fluid para a imagem se adaptar ao tamanho dos cards sem deixar bordas-->
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">Burguer tri</h5>
+            <p class="card-text">Uma unificação do burguer simples com o duplo. Uma verdadeira delícia!</p>
+            <a href="#" class="btn btn-success w-100">CONFIRA!</a> 
+          </div>
+        </div>
+      </div>   
+    
+    <!-- Seção de descrição do Burguer+ -->
+  <div class="container mt-5">
+    <div class="row align-items-center"> <!-- Alinhamento centralizado na vertical -->
+    
+    <!-- Coluna da imagem (lado esquerdo) -->
+    <div class="col-12 col-md-6 mb-4 mb-md-0 "> <!-- Ocupa metade da largura em telas médias e maiores -->
+      <img src="/imagens/restaurant-1837150_1920.jpg" class="img-fluid rounded" alt="Imagem ilustrativa do Burguer+" />
+    </div>
+    
+    <!-- Coluna do texto (lado direito) -->
+    <div class="col-12 col-md-6 bg-body-tertiary">
+      <h2 class="mb-3 fs-1">Sobre o Burguer+</h2>
+      <p class="text-capitalize">
+        A Burguer+ nasceu com a missão de oferecer uma experiência única para os amantes de hambúrgueres. Em nosso cardápio, cada prato é cuidadosamente elaborado com <strong>ingredientes frescos e de alta qualidade</strong>, que garantem um sabor inconfundível e autêntico. Estamos comprometidos em transformar um simples hambúrguer em uma verdadeira refeição gourmet. 
+      </p>
+      <p>
+        Venha experimentar o sabor inigualável do Burguer+ e descubra porque somos apaixonados pelo que fazemos.
+      </p>
+      <button type="button" class="btn btn-success w-100">CONFIRA NOSSAS LOJAS!</button>
+    </div>
+  </div>
+    
+  <footer class="footer">
+  <p>&copy; 2024 Burguer+. Todos os direitos reservados. <span>&reg;</span></p>
+</footer>
+  
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" ></script>
