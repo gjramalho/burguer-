@@ -22,7 +22,6 @@
 .text-capitalize {
   text-align: justify;
   line-height: 1.6;
-  
 }
 
 h2 {
@@ -45,6 +44,7 @@ p {
   font-size: 14px;             /* Tamanho da fonte */
   color: #6c757d;              /* Cor do texto (cinza claro) */
   margin: 0;                   /* Remove margens extras */
+  
 }
 
 @media (max-width: 768px) {
