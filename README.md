@@ -10,7 +10,7 @@ Landing page em desenvolvimento, usando (HTML, CSS, BOOTSTRAP) focada em mostrar
 
 *Logo após adicionei um carrosel de videos, para chamar atenção do produto anunciado e etc.
 
-
+![image](https://github.com/user-attachments/assets/a9fb9666-baa0-4813-b964-ddb0647daf16)
 
 
 (Versão mobile)
