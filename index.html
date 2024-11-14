@@ -44,6 +44,7 @@
             </div>
         </nav>
 
+        <!-- Estrutura do carrosel-->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -80,10 +81,22 @@
           </button>
         </div>
         
+        <!-- Estrutura dos cards-->
         <div class="container mt-5">
           <div class="row justify-content-center"> <!-- Flexbox para centralizar -->
-            <div class="col-12 col-md-4 mb-3"> <!-- Ocupa toda a largura no mobile e 4 colunas em telas maiores -->
-              <div class="card card-spacing">
+            <div class="col-12 col-md-4 mb-3"> <!-- Ocupa toda a largura no mobile e 4 colunas em telas médias/maiores -->
+              <div class="card card-spacing p-0" style="width: 18rem;">
+                <img src="/imagens/hamburger-951896_1920.jpg" class="img-fluid card-img " alt="Imagem do card">
+                <div class="card-body d-flex flex-column justify-content-between">
+                  <h5 class="card-title">Burguer tri</h5>
+                  <p class="card-text">Uma unificação do burguer simples com o duplo. Uma verdadeira delícia!</p>
+                  <a href="#" class="btn btn-success ">CONFIRA!</a> <!-- Não utilizar o mx-auto, quero o botão ocupando um espaço maior no card-->
+                </div>
+              </div>
+            </div>
+        
+            <div class="col-12 col-md-4 mb-3">
+              <div class="card card-spacing p-0" style="width: 18rem;">
                 <img src="/imagens/hamburger-951896_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body d-flex flex-column justify-content-between">
                   <h5 class="card-title">Burguer tri</h5>
@@ -92,20 +105,11 @@
                 </div>
               </div>
             </div>
+
+            
         
             <div class="col-12 col-md-4 mb-3">
-              <div class="card card-spacing">
-                <img src="/imagens/hamburger-951896_1920.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column justify-content-between">
-                  <h5 class="card-title">Burguer tri</h5>
-                  <p class="card-text">Uma unificação do burguer simples com o duplo. Uma verdadeira delícia!</p>
-                  <a href="#" class="btn btn-success">CONFIRA!</a>
-                </div>
-              </div>
-            </div>
-        
-            <div class="col-12 col-md-4 mb-3">
-              <div class="card card-spacing">
+              <div class="card card-spacing p-0" style="width: 18rem;"> <!--Usei o p-0 para remover o padding dos card e dar um estilo mais bonito e slim-->>
                 <img src="/imagens/hamburger-951896_1920.jpg" class="card-img-top" alt="...">
                 <div class="card-body d-flex flex-column justify-content-between">
                   <h5 class="card-title">Burguer tri</h5>
