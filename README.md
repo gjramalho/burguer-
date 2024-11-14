@@ -19,8 +19,10 @@ Landing page em desenvolvimento, usando (HTML, CSS, BOOTSTRAP) focada em mostrar
 
 *Após o carrosel eu coloquei cards, e foi um bom desafio para centralizar e colocar um em baixo da outro no mobile, mas rapido resolvi com ROW e GRID.
 
-![image](https://github.com/user-attachments/assets/c3196ab1-7b13-4b0d-9543-c0a4c8754631)
+![image](https://github.com/user-attachments/assets/36472f1c-8122-44d9-94c8-470f98b8c897)
+
 
 (Versão mobile)
-![image](https://github.com/user-attachments/assets/920ee60a-1116-4803-9dc6-fe78269e307d)
+![image](https://github.com/user-attachments/assets/2cc94936-fb38-4c6f-a0f3-1c6baaad93d2)
+
 
