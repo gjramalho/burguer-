@@ -33,6 +33,10 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+.estilizar {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
 .footer {
   background-color: #f8f9fa;  /* Cor suave de fundo */
   text-align: center;          /* Alinha o texto no centro */
@@ -44,7 +48,7 @@ p {
   font-size: 14px;             /* Tamanho da fonte */
   color: #6c757d;              /* Cor do texto (cinza claro) */
   margin: 0;                   /* Remove margens extras */
-  
+ 
 }
 
 @media (max-width: 768px) {
