@@ -38,7 +38,6 @@ p {
 }
 
 .footer {
-  background-color: #f8f9fa;  /* Cor suave de fundo */
   text-align: center;          /* Alinha o texto no centro */
   padding: 20px 0;             /* Espaçamento superior e inferior */
   margin-top: 50px;            /* Espaçamento entre o conteúdo anterior e o footer */
@@ -47,8 +46,7 @@ p {
 .footer p {
   font-size: 14px;             /* Tamanho da fonte */
   color: #6c757d;              /* Cor do texto (cinza claro) */
-  margin: 0;                   /* Remove margens extras */
- 
+  margin: 0;                   /* Remove margens extras */ 
 }
 
 @media (max-width: 768px) {
@@ -72,3 +70,4 @@ p {
     font-size: 12px; /* usei para reduzir o tamanho da fonte em telas menores*/
   }
 }
+
