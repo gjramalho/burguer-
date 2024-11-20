@@ -8,4 +8,4 @@ Site simples e respo, de uma hamburgueria.
 - Bootstrap
 
 ## 🧑‍💻 Autor
-- ** Gabriel Ramalho **
+- **Gabriel Ramalho**
