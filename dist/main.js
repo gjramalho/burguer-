@@ -1,5 +1,5 @@
 const navbarLinks = document.querySelectorAll('.nav-link'); //pegar todos os links da navbar
-const pagatual = window.location.pathname.split('/home').pop(); // pegar o caminho atual da URL (!apenas o final da URL usando .split!)
+const pagatual = window.location.pathname.split('/home').pop(); // pegar o caminho atual da URL (!apenas o final da URL!)
 
 // usei o forEach para interar os links da navbar
 navbarLinks.forEach(link => { 
