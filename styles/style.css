@@ -49,6 +49,8 @@ p {
   margin: 0;                   /* Remove margens extras */ 
 }
 
+
+
 @media (max-width: 768px) {
   .footer {
     padding: 15px 0;  /* Ajuste do espaçamento para dispositivos móveis */
