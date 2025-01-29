@@ -49,27 +49,3 @@ p {
   margin: 0;                   /* Remove margens extras */ 
 }
 
-
-
-@media (max-width: 768px) {
-  .footer {
-    padding: 15px 0;  /* Ajuste do espaçamento para dispositivos móveis */
-  }
-
-  .footer p {
-    font-size: 12px;  /* Ajuste do tamanho da fonte em telas pequenas */
-  }
-}
-
-.carousel-item video,
-.carousel-item img {
-  object-fit: cover;
-  height: 400px; /*Ajuste a altura conforme for nessesário melhora a respo*/
-}
-
-@media (max-width: 576px) {
-  .footer p {
-    font-size: 12px; /* usei para reduzir o tamanho da fonte em telas menores*/
-  }
-}
-
